@@ -13,7 +13,7 @@ function nowServing(katzDeliLine){
 
  for(katzDeliLine.length; katzDeliLine.length !== 0;){
    return `Currently serving ${serving}.`
-   katzDeliLine.slice(0);
+   katzDeliLine.pop();
    return katzDeliLine
  }
  
