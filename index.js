@@ -9,7 +9,7 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
-var serving = katzDeliLine.name[0];
+var serving = katzDeliLine[0];
 var newArray2 = []; 
 
  while(katzDeliLine.length !== 0){
