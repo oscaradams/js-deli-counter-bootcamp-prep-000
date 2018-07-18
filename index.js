@@ -1,11 +1,11 @@
 var katzDeliLine = [];
 
 function takeANumber(katzDeliLine, name){
-
+  var newArray = [];
   var i=0 
   i++
   katzDeliLine.push(`${name}`);
-  console.log(`Welcome ${name}. You are number ${i} in line.`)
-  return katzDeliLine
+  newArray.push(`Welcome ${name}. You are number ${i} in line.`)
+  return newArray
 }
 
