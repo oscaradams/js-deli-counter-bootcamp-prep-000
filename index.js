@@ -9,11 +9,11 @@ function takeANumber(katzDeliLine, name){
 }
 
 function nowServing(katzDeliLine){
- var serving = katzDeliLine[0]
+ var serving = katzDeliLine[1]
 
  for(katzDeliLine.length; katzDeliLine.length !== 0;){
    return `Currently serving ${serving}.`
-   katzDeliLine.shift();
+   katzDeliLine.slice(1);
    return katzDeliLine
  }
  
