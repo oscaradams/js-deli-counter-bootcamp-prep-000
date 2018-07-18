@@ -16,7 +16,7 @@ var newArray2 = [];
    
    newArray2.push(`Currently serving ${serving}.`)
    katzDeliLine.shift();
-   return newArray
+   return newArray2
  }
  
  
