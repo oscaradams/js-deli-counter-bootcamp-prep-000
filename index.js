@@ -33,5 +33,5 @@ function currentLine(katzDeliLine){
   for(var i = 0; i>0; i++){
     return current.push(`${i}. ${nameInLine}`)
   }
-  if (katzDeliLine.length === 0){return ''}
+  if (katzDeliLine.length === 0){return 'The line is currently empty.'}
 }
