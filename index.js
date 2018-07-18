@@ -8,4 +8,14 @@ function takeANumber(katzDeliLine, name){
   return newArray
 }
 
-function 
+function nowServing(katzDeliLine){
+ var serving = katzDeliLine[0]
+ if(katzDeliLine.length === 0){
+   return "There is nobody in line"
+ }
+ else {
+   return `Now serving ${serving}`
+   katzDeliLine.pop
+ }
+ 
+}
