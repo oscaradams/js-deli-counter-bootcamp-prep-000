@@ -10,11 +10,11 @@ function takeANumber(katzDeliLine, name){
 
 function nowServing(katzDeliLine){
 var serving = katzDeliLine.name[0];
-var newArray = []; 
+var newArray2 = []; 
 
  while(katzDeliLine.length !== 0){
    
-   newArray.push(`Currently serving ${serving}.`)
+   newArray2.push(`Currently serving ${serving}.`)
    katzDeliLine.shift();
    return newArray
  }
