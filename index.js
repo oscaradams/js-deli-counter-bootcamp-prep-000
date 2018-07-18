@@ -32,6 +32,7 @@ function currentLine(katzDeliLine){
   var numberinline = katzDeliLine.length
   katzDeliLine
   while(numberinline > 0){
+    --numberinline
     return current.unshift(`${numberinline}. ${nameInLine}`)
   }
   if (katzDeliLine.length === 0){return 'The line is currently empty.'}
