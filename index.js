@@ -29,9 +29,10 @@ var newLine = [];
 
 function currentLine(katzDeliLine){
   var current = [];
-  var nameInLine = katzDeliLine[i];
-  for(var i = 0; i>0; i++){
-    return current.push(`${i}. ${nameInLine}`)
+  var numberinline = katzDeliLine.length
+  katzDeliLine
+  while(numberinline > 0){
+    return current.unshift(`${numberinline}. ${nameInLine}`)
   }
   if (katzDeliLine.length === 0){return 'The line is currently empty.'}
 }
