@@ -27,3 +27,11 @@ var newLine = [];
  
 }
 
+function currentLine(katzDeliLine){
+  var current = [];
+  
+  var line = katzDeliLine.length
+  for(var i = 0; i>0; i++){
+    return `The line is currently: ${i}. ${}`
+  }
+}
