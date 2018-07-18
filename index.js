@@ -30,10 +30,9 @@ var newLine = [];
 function currentLine(katzDeliLine){
   var current = [];
   var numberinline = katzDeliLine.length
-  katzDeliLine
   while(numberinline > 0){
     --numberinline
-    current.unshift(`${numberinline}. ${katzDeliLine[numberinline]}`)
+    current.unshift(`${numberinline + 1}. ${katzDeliLine[numberinline]}`)
   }
   if (katzDeliLine.length === 0){return 'The line is currently empty.'}
 return `The line is currently: ${current}`
