@@ -15,7 +15,7 @@ var newArray2 = [];
  while(katzDeliLine.length !== 0){
    
    newArray2.push(`Currently serving ${serving}.`)
-   katzDeliLine.name.shift();
+   katzDeliLine.shift();
    return newArray2
  }
  
