@@ -14,7 +14,7 @@ function nowServing(katzDeliLine){
  while(katzDeliLine.length !== 0){
    var serving = katzDeliLine[0]
    return `Currently serving ${serving}.`
-   katzDeliLine.shift();
+   return katzDeliLine.shift();
  }
  
  
