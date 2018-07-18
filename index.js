@@ -8,3 +8,4 @@ function takeANumber(katzDeliLine, name){
   return newArray
 }
 
+function 
