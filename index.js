@@ -29,9 +29,9 @@ var newLine = [];
 
 function currentLine(katzDeliLine){
   var current = [];
-  
-  var line = katzDeliLine.length
+  var nameInLine = katzDeliLine[i];
   for(var i = 0; i>0; i++){
-    current.push(`${i} ${}`)
+    return current.push(`${i}. ${nameInLine}`)
   }
+  if (katzDeliLine.length === 0){return ''}
 }
